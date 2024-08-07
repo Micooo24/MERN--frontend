@@ -1,0 +1,44 @@
+    /* Centering the form in the middle of the page */
+    .center-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* Styling the form title */
+    h1 {
+        margin-bottom: 20px;
+        color: #001f3f; /* Navy Blue */
+    }
+
+    /* Form group styling */
+    .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    /* Form labels styling */
+    .form-label {
+        font-weight: bold;
+        color: #001f3f; /* Navy Blue */
+    }
+
+    /* Form controls styling */
+    .form-control {
+        border-radius: 5px;
+        border: 1px solid #ADD8E6; /* Light Blue */
+    }
+
+    /* Button styling */
+    .w-100 {
+        background-color: #001f3f; /* Navy Blue */
+        border-color: #001f3f; /* Navy Blue */
+    }
+
+    .w-100:hover {
+        background-color: #ADD8E6; /* Light Blue */
+        border-color: #ADD8E6; /* Light Blue */
+        color: #fff;
+    }

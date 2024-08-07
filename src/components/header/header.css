@@ -1,0 +1,30 @@
+/* header.css */
+
+/* Ensuring the nav links have a consistent color, padding, and other styles */
+.nav-link {
+    color: #ffffff; /* White color for nav links */
+    padding: 10px 15px; /* Padding for spacing */
+    text-decoration: none; /* Removing underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+    color: #ADD8E6; /* Light blue color on hover */
+}
+
+/* Margin-left auto to push the nav items to the right */
+.ml-auto {
+    margin-left: auto !important;
+}
+
+/* Styling for the navbar brand */
+.navbar-brand {
+    color: #ffffff; /* White color for brand */
+    text-decoration: none; /* Removing underline */
+    font-weight: bold; /* Bold font for brand */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-brand:hover {
+    color: #ADD8E6; /* Light blue color on hover */
+}
